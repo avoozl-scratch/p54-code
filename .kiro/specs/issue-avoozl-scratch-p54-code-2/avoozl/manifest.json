@@ -13,6 +13,20 @@
       "checks": [
         "ls README.md"
       ]
+    },
+    "1.2": {
+      "kind": "leaf",
+      "repository": "code",
+      "summary": "Add NOTES.md to p54-code",
+      "acceptance": [
+        "NOTES.md exists in p54-code."
+      ],
+      "paths": [
+        "NOTES.md"
+      ],
+      "checks": [
+        "ls README.md"
+      ]
     }
   }
 }
