@@ -1,0 +1,47 @@
+{
+  "tasks": {
+    "1.1": {
+      "kind": "leaf",
+      "repository": "code",
+      "summary": "Add greeting.txt to p54-code",
+      "acceptance": [
+        "greeting.txt exists in p54-code."
+      ],
+      "paths": [
+        "greeting.txt"
+      ],
+      "checks": [
+        "ls README.md"
+      ]
+    },
+    "1.2": {
+      "kind": "leaf",
+      "repository": "lib",
+      "summary": "Add version.txt to p54-lib",
+      "acceptance": [
+        "version.txt exists in p54-lib."
+      ],
+      "paths": [
+        "version.txt",
+        "FAIL"
+      ],
+      "checks": [
+        "ls README.md"
+      ]
+    },
+    "1.3": {
+      "kind": "leaf",
+      "repository": "code",
+      "summary": "Add fork.txt to p54-code from a fork",
+      "acceptance": [
+        "fork.txt exists in p54-code."
+      ],
+      "paths": [
+        "fork.txt"
+      ],
+      "checks": [
+        "ls README.md"
+      ]
+    }
+  }
+}
